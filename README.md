@@ -2,11 +2,9 @@
 
 ## Project Overview
 
-Employee Management System is a Java-based desktop application developed to manage employee records efficiently. The system provides an easy-to-use interface for storing, viewing, updating, and deleting employee information.
+Employee Management System is a Java-based desktop application developed to manage employee records efficiently. It provides an easy-to-use interface for adding, viewing, updating, and deleting employee information.
 
-The main objective of this project is to reduce manual work and maintain employee details digitally with proper database management.
-
----
+The main objective of this project is to reduce manual work and maintain employee details digitally using database management.
 
 ## Features
 
@@ -15,66 +13,35 @@ The main objective of this project is to reduce manual work and maintain employe
 * View Employee Records
 * Update Employee Information
 * Remove Employee Records
-* Manage employee data efficiently
-* MySQL database connectivity
-
----
+* MySQL Database Connectivity
 
 ## Technologies Used
 
-### Frontend
+* **Frontend:** Java Swing (GUI)
+* **Backend:** Java
+* **Database:** MySQL
+* **Connectivity:** JDBC
+* **IDE:** NetBeans IDE
 
-* Java Swing (GUI)
+## Modules
 
-### Backend
-
-* Java
-
-### Database
-
-* MySQL
-
-### IDE
-
-* NetBeans IDE
-
-### Connectivity
-
-* JDBC (Java Database Connectivity)
-
----
-
-## Project Modules
-
-### 1. Login Module
+### Login Module
 
 * Provides secure access to the application.
-* Validates user credentials before entering the system.
+* Validates user credentials.
 
-### 2. Add Employee Module
+### Employee Management Module
 
-* Allows users to add new employee details.
-* Stores employee information in the database.
+* Add new employee details.
+* View employee records.
+* Update employee information.
+* Remove employee records.
 
-### 3. View Employee Module
-
-* Displays all available employee records.
-
-### 4. Update Employee Module
-
-* Allows modification of existing employee information.
-
-### 5. Remove Employee Module
-
-* Deletes employee records from the database.
-
----
-
-## Database Structure
+## Database
 
 The project uses MySQL database to store employee information.
 
-Database contains employee-related details such as:
+Employee details include:
 
 * Employee ID
 * Name
@@ -82,6 +49,3 @@ Database contains employee-related details such as:
 * Phone Number
 * Department
 * Salary
-* Other personal details
-
----
